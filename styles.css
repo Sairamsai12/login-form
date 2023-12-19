@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ADE4DB;
+    box-sizing: border-box;
+
+}
+
+.container{
+    background-color: #fff;
+    height: 400px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 100px auto;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+   
+}
+.title{
+   
+    padding: 20px;
+    font-size: 25px;
+    margin: 10px auto;
+}
+.mail{
+    width: 80%;
+    padding: 10px 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+
+}
+.password{
+    width: 80%;
+    padding: 10px 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+
+    
+
+}
+.btn{
+    padding: 15px 100px;
+    margin: 20px auto;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 10px;
+    background-color:#ADE4DB ;
+    border: 1px solid rgb(147, 198, 198);
+}
